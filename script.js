@@ -148,3 +148,11 @@ function fightBeast() {
 function goFight() {
 
 }
+
+function attack() {
+
+}
+
+function dodge() {
+  
+}
