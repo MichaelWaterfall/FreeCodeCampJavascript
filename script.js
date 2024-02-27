@@ -206,6 +206,10 @@ function defeatMonster() {
     update(locations[4]);
 }
 
+function getMonsterAttackValue(level) {
+  
+}
+
 function lose() {
   update(locations[5]);
 }
