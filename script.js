@@ -131,17 +131,19 @@ function sellWeapon() {
 }
 
 function fightSlime() {
-    fighting = 0 - monsters[slime];
+    fighting = 0;
     goFight();
 }
 
 function fightBeast() {
-
-}
-
-function fightDragon() {
-  console.log("Fighting dragon.");
-}
+    fighting = 1;
+    goFight();
+  }
+  
+  function fightDragon() {
+    fighting = 2;
+    goFight();
+  }
 
 function goFight() {
 
